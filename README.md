@@ -1,3 +1,10 @@
+# Fundamentos do JavaScript Clássico 
+
+## INTEGRAÇÕES 
+
+### Integrar JavaScript de forma interna 
+
+~~~ html
 <!DOCTYPE html>
 
 <html lang="pt-br">
@@ -14,3 +21,5 @@
 </body>
 </html>
     
+
+~~~
