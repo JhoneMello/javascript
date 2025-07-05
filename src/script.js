@@ -1,13 +1,8 @@
 
-var arr = [
-  {
-    name: "Mello"
-    age: 47
-  },
+var age = 29;
 
-  {
-    name: "Jhone"
-    age: 25
-  }
-];
+var weight = "86.5";
 
+var result = age + weight;
+
+console.log(typeof result);
