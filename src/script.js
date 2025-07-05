@@ -1,19 +1,13 @@
 
-// string
-var name = "Jhone"; 
-var surname = 'Mello';
+var arr = [
+  {
+    name: "Mello"
+    age: 47
+  },
 
-// number
-var age = 29;
-var weight = 85.6;
+  {
+    name: "Jhone"
+    age: 25
+  }
+];
 
-// boolean
-var active = true;
-var permission =  false;
-
-// undefined 
-var contains;
-console.log(contains);
-
-//null
-var data = null;

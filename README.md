@@ -196,6 +196,27 @@ var data = null;
 
 ~~~
 
+### Não primitivo
+
+~~~ javascript 
+./src/script.js
+
+// array
+var values = [1, "Alex", true, null];
+
+// object literal
+var person = {name: "Mello", age: 47}
+
+var person = {
+  name: "Mello",
+  age : 47
+}
+
+//function
+var message = function(){};
+
+~~~ 
+
     
     
 
