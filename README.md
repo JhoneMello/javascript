@@ -25,7 +25,6 @@
 ~~~
     
 
-
 ### Integrar JavaScript de forma externa
 
 - Criar diretório ***src*** na raiz do projeto 
@@ -196,6 +195,7 @@ var data = null;
 
 ~~~
 
+<<<<<<< HEAD
 
 
 
@@ -261,5 +261,93 @@ var licensed = false
 
     
     
+=======
+### Não primitivo
+
+~~~ javascript 
+./src/script.js
+
+// array
+var values = [1, "Alex", true, null];
+
+// object literal
+var person = {name: "Mello", age: 47}
+
+var person = {
+  name: "Mello",
+  age : 47
+}
+
+//function
+var message = function(){};
+
+~~~ 
+
+### Inspecinar tipo
+
+~~~ javascript 
+./src/script.js
+
+// typeof
+var age = 29;
+console.log(typeof age);
+
+~~~
+
+### Coerção de tipo 
+-Implicíta
+
+~~~ javascript 
+./src/script.js
+
+var age = 29;
+var weight = "86.5";
+var result = age + weight;
+console.log(typeof result);
+
+~~~
+
+-Explícita 
+
+~~~ javascript 
+./src/script.js
+
+// Number()
+var weight = Number("85.6");
+console.log(typeof weight);
+//String()
+var age = String(47);
+console.log(typeof age);
+//Boolean()
+var active = Boolean(0);
+console.log(typeof active);
+
+~~~
+
+//Operadores
+
+// aritmético
+
+var num1 = 10;
+var num2 = 2;
+
+// adição
+var sum = num1 + num2;
+
+// subtração
+var sub = num1 - num2;
+
+// multiplicação
+var mult = num1 * num2;
+
+// divisão
+var div = num1 / num2;
+
+// módulo/resto
+var mod = num1 % num2;
+
+//incremento
+var result1 = 10++;
+>>>>>>> 0432bedd4cd99e57583869187f783656b1b7e465
 
 
