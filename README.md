@@ -196,6 +196,69 @@ var data = null;
 
 ~~~
 
+
+
+
+
+
+
+
+
+
+~~~ javascript
+./src/script.js
+
+if(5=="5") {
+    console.log("Verdadeiro");
+} else {
+    console.log("falso");
+}
+  
+
+
+
+~~~ javascript
+./src/script.js
+
+var age =65;
+
+if(age > 60) {
+    console.log("Aposentado");
+} else if (age > 30) {}
+    console.log("CLT"); {
+
+    }
+
+  
+
+~~~
+
+#### Operador ternário
+
+~~~ javascript
+./src/script.js
+
+var age = 16:
+
+age >= 18 ? console.log("Adult") : console.log("Minor");
+
+
+~~~
+
+#### Curto-circuito Lógico
+
+~~~ javascript
+./src/script.js
+
+var licensed = false
+
+!licensed && console.log("Precisa tirar a carta de habilitação");
+
+~~~
+
+
+
+
     
     
 
